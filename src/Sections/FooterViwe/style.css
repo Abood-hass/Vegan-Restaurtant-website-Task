@@ -1,0 +1,83 @@
+.FooterView {
+  color: white;
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  height: 300px;
+  width: 100%;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(16, 20, 24, 0.7);
+  padding: 5px 150px;
+}
+
+.FooterView > div {
+  width: 300px;
+}
+.ResturantIcon > p:nth-of-type(1) {
+  color: #fffccc;
+  font-size: 24px;
+}
+
+.ResturantIcon > p:nth-of-type(2) {
+  font-family: monospace;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 10px;
+}
+.socialMedia > img {
+  padding: 3px;
+  background-color: gray;
+  border-radius: 50%;
+  height: 17px;
+  width: 17px;
+}
+.OtherLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.OtherLinks > p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.OtherLinks > li {
+  font-size: 12px;
+}
+
+.OtherLinks > li > span {
+  cursor: pointer;
+  font-size: 16px;
+}
+.ContactUs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.ContactUs > p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.ContactUs > div > span {
+  font-size: 16px;
+}
+.ContactUs > div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  /* margin-bottom: 10px; */
+}
+.ContactUs > div > img {
+  height: 26px;
+  width: 26px;
+  margin-right: 10px;
+}

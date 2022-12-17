@@ -1,0 +1,56 @@
+.header {
+  padding: 0px;
+  display: flex;
+  background-color: #101418;
+  color: wheat;
+  min-height: 76px;
+  width: 988px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header > div {
+  display: inline;
+}
+.navigation {
+  width: 600px;
+}
+.navigation > a {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 20px;
+}
+.bookNowBtn {
+  position: relative;
+  cursor: pointer;
+  background-color: #a08040;
+  color: white;
+  width: 272px;
+  height: 76px;
+}
+.bookNowBtn > div {
+  position: relative;
+  background-color: #a08040;
+  width: 130px;
+  height: fit-content;
+  font-weight: bold;
+  font-size: 21px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.bookNowBtn > hr {
+  position: absolute;
+  height: 5px;
+  background-color: white;
+  border: 2px solid;
+  width: 200px;
+  height: fit-content;
+  font-weight: bold;
+  font-size: 21px;
+  top: 35%;
+  left: 13%;
+  font-size: 20px;
+}

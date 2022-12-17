@@ -1,0 +1,24 @@
+.SpeicalCard {
+  border: 1px dotted #a18556;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  background-color: #56483175;
+  height: 350px;
+  width: 250px;
+}
+.SpeicalCard > img {
+  object-fit: contain;
+  height: 80px;
+  width: 80px;
+}
+.SpeicalCard > span:nth-of-type(1) {
+  font-size: 24px;
+}
+
+.SpeicalCard > span:nth-of-type(2) {
+  font-family: monospace;
+}

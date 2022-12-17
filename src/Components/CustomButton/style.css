@@ -1,0 +1,18 @@
+.CustomBtn {
+  cursor: pointer;
+  user-select: none;
+  background-color: #00000000;
+  border: 3px solid #d9d9d9;
+  min-height: 50px;
+  min-width: 200px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 200ms;
+}
+
+.CustomBtn:hover {
+  color: black;
+  background-color: #d9d9d9;
+  border-color: #00000000;
+}

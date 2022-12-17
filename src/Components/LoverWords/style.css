@@ -1,0 +1,46 @@
+.loverCard {
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 550px;
+  color: white;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+  background-color: rgba(16, 20, 24, 0.85);
+}
+.userInfo {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.userAvatar {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.userName {
+  font-size: 18px;
+}
+.userInfo > div {
+  margin: 0px 10px;
+
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userComment {
+  height: 100px;
+  font-family: monospace;
+  padding: 20px 5px 5px 30px;
+}
+
+.startIcon {
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}

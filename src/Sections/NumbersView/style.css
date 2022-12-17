@@ -1,0 +1,39 @@
+.NumberView {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  height: 192px;
+  width: 100%;
+  padding: 0px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(16, 20, 24, 0.7);
+}
+.NumberViewText {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.NumberViewText > div {
+  margin-left: 10px;
+  height: fit-content;
+}
+.NumberViewText > div > p:nth-of-type(1) {
+  margin: 0px;
+  font-size: 48px;
+  color: #ffce6d;
+}
+
+.NumberViewText > div > p:nth-of-type(2) {
+  margin: 0px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.NumberViewText > img {
+  object-fit: contain;
+  height: 85.66px;
+  width: 79.01px;
+}
