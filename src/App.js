@@ -5,8 +5,8 @@ import RegisterPage from './Pages/RegisterPage';
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage /> */}
-      <RegisterPage />
+      <LandingPage />
+      {/* <RegisterPage /> */}
     </div>
   );
 }

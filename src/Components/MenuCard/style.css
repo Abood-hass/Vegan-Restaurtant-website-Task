@@ -9,6 +9,7 @@
   color: #a18556;
 }
 .MenuCard > img {
+  object-fit: contain;
   height: 80px;
   width: 80px;
 }

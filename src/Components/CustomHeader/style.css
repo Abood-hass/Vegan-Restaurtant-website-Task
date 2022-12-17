@@ -54,3 +54,35 @@
   left: 13%;
   font-size: 20px;
 }
+.RestIcon {
+  position: relative;
+  margin-left: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+}
+.RestIcon > img {
+  position: absolute;
+  bottom: 50%;
+  right: 65%;
+  width: 15px;
+  height: 22px;
+}
+.RestIconPartOne,
+.RestIconPartTwo {
+  transform: rotate(45deg);
+  height: 50%;
+  width: 50%;
+  box-sizing: border-box;
+  border: 3px solid #ffffcc;
+}
+.RestIconPartOne {
+  margin-bottom: -23px;
+}
+
+.RestIconPartTwo {
+  margin-top: -23px;
+}

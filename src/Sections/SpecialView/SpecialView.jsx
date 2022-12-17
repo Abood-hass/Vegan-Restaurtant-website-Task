@@ -4,7 +4,7 @@ import './style.css'
 export default class SpecialView extends Component {
     render() {
         return (
-            <div className='SpecialView'>
+            <div className='SpecialView' id='Special'>
                 <div className='SpecialViewHeader'>
                     <p>Special</p>
                     <p>What makes us special</p>

@@ -7,6 +7,7 @@ import youtubeIcon from '../../assest/SocialMedia/icons8-youtube-30.png'
 import emailIcon from '../../assest/ContactIcons/icons8-secured-letter-30.png'
 import phoneIcon from '../../assest/ContactIcons/icons8-phone-50.png'
 import locationIcon from '../../assest/ContactIcons/icons8-location-24.png'
+import icon from '../../assest/icons8-dining-room-50.png'
 
 import './style.css'
 
@@ -16,7 +17,7 @@ export default class FooterView extends Component {
             <div className='FooterView'>
 
                 <div className='ResturantIcon'>
-                    <p>Golden View Dine</p>
+                    <p style={{ display: 'block' }}>Golden View Dine</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin</p>
                     <div className='socialMedia'><img src={twitterIcon} alt="" /><img src={instagramIcon} alt="" /><img src={youtubeIcon} alt="" /></div>
                 </div>

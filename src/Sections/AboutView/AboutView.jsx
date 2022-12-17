@@ -4,7 +4,7 @@ import './style.css'
 
 export default function AboutView() {
     return (
-        <div className='AboutView'>
+        <div className='AboutView' id='About'>
             <div className='AboutViewHeader'>
                 <p>About us</p>
                 <p>Discover the taste of worldclass vegan dishes from the kitchen of Go Green Dine</p>

@@ -25,7 +25,7 @@ export default class BlogsView extends Component {
     ]
     render() {
         return (
-            <div className='BlogsView'>
+            <div className='BlogsView' id='Blog'>
                 <div className='BlogsViewHeader'>
                     <p>Blogs</p>
                     <p>words from our food lovers</p>

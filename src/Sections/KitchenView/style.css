@@ -22,8 +22,12 @@
   font-size: 30px;
   font-weight: 700;
 }
-
 .KitchenViewBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.KitchenViewBody > div {
   height: 70vh;
   display: flex;
   margin: 0px 25px;
