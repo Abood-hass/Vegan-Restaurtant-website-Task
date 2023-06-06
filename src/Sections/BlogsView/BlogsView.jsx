@@ -6,17 +6,18 @@ export default class BlogsView extends Component {
     data = [
         {
             "normalDir": 0,
-            "src": 'https://s3-alpha-sig.figma.com/img/2f6c/81e4/6e98354be82f32f531a4b3dff0a83cb4?Expires=1672012800&Signature=M~X16W8QLgQHX6ZnDy1NrWrNc3dbYPj5wKCgDPo40HRmDoqtTDZWMzebesKRjd4GLbLsHgzAP9tdsjjtYMWxTTc6ewUMyMnw7s8Ba8RDdqV-E-V04jNIjVGs3jELsTeyYCRiYoTFgHV1MdIlzN0BiEb2kg4B6OkfF5FS5ewunt23DFFvrRtdiAwdfIz~ncuPKF0r99Ccy-ohcHza9ngRO5CNBrrkb4lpD6fffk6mcnOLEBRfZHrnzQi-eQ253jmId2eqkkDgX3gySlJejko-RpL1N9vlFAzufibRRn0SHYMHWPhNc4c~xl6voxetdTCc3jNotJwdoGC71QuHz0z3Fw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            "src": 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1961&q=80',
             "header": "Cooking Dining Experience",
             "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin "
         },
         {
             "header": "Cooking Dining Experience",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin "
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin ",
+            "src": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
         },
         {
             "normalDir": 0,
-            "src": 'https://s3-alpha-sig.figma.com/img/752d/3466/9134cf6b2a7d3dd1ed60809c78b98c51?Expires=1672012800&Signature=WBWuMXGVgCB7hG9tp5Ma2~me1u5Zp~dpT5PzN6PcViE82Y5lnKaJYi1I0KY76x12rNOEFkg3PQNbdMH375dgCtumxIh9gUtf3NFcB3ypveW9WY7aa-GWO8kXd531KFkaXsEk~k2w4clCLmD5pFBmu4JxmL0ilp0tBrB9~OGVtCb6~ZiY1peeL9D4hcHAVkCbC3~N9A9efSoe0Yh4pRi0pPo6jS68svvtMQrVhLPRWQRHezSoOkHRtpc3bJ2GCYWGD3GeomV8ZNa1pe6tzgsE6gd0g6yfDwdfn3yr-a-teGQnbdNLRRcZBd7314Cn1rdGjQNb8GEz-ZoezP7bsUWqgw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+            "src": 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
             "header": "Cooking Dining Experience",
             "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin "
         },

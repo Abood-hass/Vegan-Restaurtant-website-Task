@@ -13,7 +13,7 @@ export default class IngredientsView extends Component {
                     <CustomButton label={"Read More"} />
                 </div>
                 <div className='IngredientsViewImage'>
-                    <img src="https://s3-alpha-sig.figma.com/img/41ec/0173/f7c0bf8d160ce52602293cc381d90d21?Expires=1672012800&Signature=U2eoqslU07LToB2xarWiXqlyL3aXvfGB4iVTbgThe67XrY4gNXBAzRUJCERMX09EDIKy0PU4CumJxwGmA2j7tZDAhYwcK1udQDQcWv2nKpI67ShwR7FAF5OocfEeM64fxM5Uf8cKW-jclLerlSUtX2BXiUlzZh4Z24iZPC9dNeFlwSxzJvGsBgpbLry16redu9ivhjOGRR-umTPKSauSFBg4wXSir6eSPiwo5DRShTz2KSoRvY-qQkpaGgEz4XsIHY9m8-SvPLNjMnYAFZSZTbWjEzjPExXQQWMagyWJcjrpoA1~kCOBKhXjltDldbLTEGkiff4WUT60rCNCAREjlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+                    <img src="https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                 </div>
 
             </div>
